@@ -8,29 +8,30 @@ export function AboutContentOne() {
       </div>
 
       <div>
-        <h3 className="text-5xl font-bold">Why you should choose us. </h3>
+        <h3 className="text-5xl font-bold">Porque você deve nos escolher.</h3>
         <p className="mt-5 mb-5 text-2xl">
-          Creating quality urban lifestyles, building stronger communities
+          Criando estilos de vida urbanos de qualidade, construindo comunidades
+          mais fortes
         </p>
 
         <ul className="grid grid-cols-2 gap-y-4">
           <li className="flex gap-3 items-center leading-none text-2xl font-medium">
             <TiInputChecked size={24} className="text-brand-dark" />
-            World class
+            Classe mundial
           </li>
 
           <li className="flex gap-3 items-center leading-none text-2xl font-medium">
             <TiInputChecked size={24} className="text-brand-dark" />
-            Affordable
+            Preços Acessíveis
           </li>
 
           <li className="flex gap-3 items-center leading-none text-2xl font-medium">
             <TiInputChecked size={24} className="text-brand-dark" />
-            Trusted
+            Confiável
           </li>
           <li className="flex gap-3 items-center leading-none text-2xl font-medium">
             <TiInputChecked size={24} className="text-brand-dark" />
-            Amenities
+            Facilidades
           </li>
         </ul>
       </div>

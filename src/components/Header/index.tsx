@@ -8,7 +8,7 @@ export function Header() {
       <div className="container h-24 flex justify-between items-center">
         <Logo />
         <HeaderNav />
-        <Button>Get Started</Button>
+        <Button>Começar agora</Button>
       </div>
     </header>
   )

@@ -6,15 +6,16 @@ export function Hero() {
     <div className="grid grid-cols-2 gap-12">
       <div className="py-6">
         <h1 className="text-7xl font-medium">
-          Helping you find the property of your dreams.
+          Ajudando você a encontrar o imóvel dos seus sonhos.
         </h1>
 
         <p className="text-3xl mt-4 mb-12">
-          Creating quality urban lifestyles, building stronger communities
+          Criando estilos de vida urbanos de qualidade, construindo comunidades
+          mais fortes
         </p>
 
         <div className="flex items-center gap-14">
-          <Button>Learn More</Button>
+          <Button>Saiba mais</Button>
           <FaPlayCircle size={50} className="text-brand-mid" />
         </div>
       </div>

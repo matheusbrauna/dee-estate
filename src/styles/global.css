@@ -3,6 +3,11 @@
 @tailwind utilities;
 
 @layer base {
+  html,
+  body {
+    @apply scroll-smooth;
+  }
+
   body {
     @apply bg-base-100 text-base-900;
   }
@@ -11,7 +16,7 @@
   input,
   textarea,
   button {
-    @apply font-mono;
+    @apply font-sans;
   }
 
   h1,
@@ -25,11 +30,7 @@
   }
 
   .nav-link {
-    @apply py-[1rem] text-2xl;
-  }
-
-  .nav-link.active {
-    @apply font-bold text-brand-mid;
+    @apply py-[1rem] text-2xl hover:text-brand-dark transition-colors;
   }
 }
 
@@ -45,7 +46,7 @@
   }
 
   .logo {
-    @apply font-serif text-4xl font-normal text-black;
+    @apply font-serif text-4xl font-normal;
   }
 
   .hero-search-container {

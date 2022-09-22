@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        mono: ['Space Grotesk', 'ui-monospace'],
-        serif: ['Oleo Script', 'ui-serif'],
+        sans: ['Roboto', 'sans-serif'],
+        serif: ['Roboto Slab', 'serif'],
       },
       colors: {
         brand: {
@@ -21,7 +21,7 @@ module.exports = {
       },
       container: {
         center: true,
-        padding: { DEFAULT: '1.5rem', sm: '1rem' },
+        padding: { DEFAULT: '1rem', lg: '1.5rem' },
       },
     },
   },

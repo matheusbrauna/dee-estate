@@ -7,24 +7,24 @@ export function HeroSearch() {
     <div className="hero-search-container">
       <div className="flex-1">
         <p className="hero-search-text">
-          Location <BsChevronDown />
+          Localização <BsChevronDown />
         </p>
-        <span className="opacity-50">Lekki</span>
+        <span className="opacity-50">São paulo</span>
       </div>
       <div className="flex-1">
         <p className="hero-search-text">
-          Property Type <BsChevronDown />
+          Tipo de propriedade <BsChevronDown />
         </p>
         <span className="opacity-50">Duplex</span>
       </div>
       <div className="flex-1">
         <p className="hero-search-text">
-          Max Price <BsChevronDown />
+          Preço máximo <BsChevronDown />
         </p>
         <span className="opacity-50">$10,000</span>
       </div>
       <div className="flex-1">
-        <Button iconButton={<FaSearch size={24} />}>Search</Button>
+        <Button iconButton={<FaSearch size={24} />}>Buscar</Button>
       </div>
     </div>
   )
