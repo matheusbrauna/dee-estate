@@ -49,7 +49,7 @@
   }
 
   .hero-search-container {
-    @apply grid grid-cols-4 place-items-center max-w-7xl h-40 rounded-3xl mx-auto bg-white my-36;
+    @apply grid grid-cols-4 place-items-center max-w-7xl h-40 rounded-3xl mx-auto bg-white mt-36;
   }
 
   .hero-search-text {

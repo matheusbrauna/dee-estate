@@ -3,7 +3,7 @@ import { Button } from '../../Button'
 
 export function Hero() {
   return (
-    <div className="container grid grid-cols-2 gap-12">
+    <div className="grid grid-cols-2 gap-12">
       <div className="py-6">
         <h1 className="text-7xl font-medium">
           Helping you find the property of your dreams.

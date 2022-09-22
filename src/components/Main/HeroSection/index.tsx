@@ -3,9 +3,11 @@ import { HeroSearch } from './HeroSearch'
 
 export function HeroSection() {
   return (
-    <section className="py-32">
-      <Hero />
-      <HeroSearch />
+    <section className="py-24">
+      <div className="container">
+        <Hero />
+        <HeroSearch />
+      </div>
     </section>
   )
 }
