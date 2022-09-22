@@ -41,10 +41,18 @@
 
   .icon-btn {
     @apply bg-brand-mid text-white hover:bg-brand-dark transition-colors active:bg-brand-light;
-    @apply rounded-[10px] px-6 h-16 flex items-center gap-2 text-2xl font-bold;
+    @apply rounded-[10px] px-6 h-16 flex items-center gap-2 text-2xl font-bold leading-none;
   }
 
   .logo {
     @apply font-serif text-4xl font-normal text-black;
+  }
+
+  .hero-search-container {
+    @apply grid grid-cols-4 place-items-center max-w-7xl h-40 rounded-3xl mx-auto bg-white my-36;
+  }
+
+  .hero-search-text {
+    @apply flex items-center gap-1 text-brand-dark font-bold;
   }
 }

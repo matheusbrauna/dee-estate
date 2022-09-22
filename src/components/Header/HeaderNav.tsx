@@ -22,6 +22,11 @@ export function HeaderNav() {
             Agent
           </a>
         </li>
+        <li>
+          <a href="#contact" className="nav-link">
+            Contact Us
+          </a>
+        </li>
       </ul>
     </nav>
   )
