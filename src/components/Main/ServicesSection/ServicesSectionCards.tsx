@@ -3,7 +3,7 @@ import { FaMapMarkerAlt } from 'react-icons/fa'
 import { MdOutlinePayment } from 'react-icons/md'
 import { Card } from '../../Card'
 
-export function AboutSectionCards() {
+export function ServicesSectionCards() {
   return (
     <div className="mt-20 grid grid-cols-3 place-items-center gap-12">
       <Card
