@@ -1,6 +1,6 @@
 export function HeaderNav() {
   return (
-    <nav className="h-24 grid place-items-center">
+    <nav className="hidden lg:grid h-24 place-items-center">
       <ul className="flex gap-10 items-center justify-center">
         <li>
           <a href="/" className="nav-link">

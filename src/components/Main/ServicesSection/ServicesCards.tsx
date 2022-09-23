@@ -5,7 +5,7 @@ import { ServiceCard } from './ServiceCard'
 
 export function ServicesCards() {
   return (
-    <div className="mt-20 grid grid-cols-3 place-items-center gap-12">
+    <div className="mt-20 lg:grid lg:grid-cols-3 gap-y-12 gap-x-12">
       <ServiceCard
         icon={<FaMapMarkerAlt size={64} className="text-brand-dark" />}
         title="Encontrar um lar"

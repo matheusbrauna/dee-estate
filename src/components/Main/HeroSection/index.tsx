@@ -3,7 +3,7 @@ import { HeroSearch } from './HeroSearch'
 
 export function HeroSection() {
   return (
-    <section className="py-24" id="home">
+    <section className="py-[192px]">
       <div className="container">
         <Hero />
         <HeroSearch />

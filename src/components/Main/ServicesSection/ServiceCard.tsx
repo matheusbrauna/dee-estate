@@ -9,9 +9,9 @@ interface CardProps {
 
 export function ServiceCard({ children, title, icon }: CardProps) {
   return (
-    <div className="min-h-[539px] h-max p-12 text-center flex flex-col items-center justify-center rounded bg-white">
+    <div className="mt-5 lg:mt-0 flex-1 h-[539px] px-12 gap-5 text-center flex flex-col items-center justify-center rounded bg-white">
       {icon}
-      <h4 className="text-4xl font-medium mb-3 text-base-900 mt-12">{title}</h4>
+      <h4 className="text-4xl font-medium text-base-900">{title}</h4>
       <p className="text-2xl">{children}</p>
     </div>
   )

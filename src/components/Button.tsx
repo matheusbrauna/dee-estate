@@ -1,12 +1,12 @@
-import { ButtonHTMLAttributes, ReactElement } from 'react'
+import { HTMLAttributes, ReactElement } from 'react'
 
-type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement> & {
+type ButtonProps = HTMLAttributes<HTMLButtonElement> & {
   iconButton?: ReactElement
 }
 
-export function Button({ iconButton, children }: ButtonProps) {
+export function Button({ iconButton, children, ...rest }: ButtonProps) {
   return (
-    <button className={iconButton ? 'icon-btn' : 'primary-btn'}>
+    <button className={iconButton ? 'icon-btn' : 'primary-btn'} {...rest}>
       {iconButton}
       {children}
     </button>

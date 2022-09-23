@@ -7,9 +7,9 @@ import { Logo } from '../Logo'
 
 export function Footer() {
   return (
-    <footer className="bg-brand-mid">
-      <div className="container flex items-center justify-between">
-        <div className="py-20 grid gap-4">
+    <footer className="bg-brand-mid py-20">
+      <div className="container flex-col gap-8 flex items-start justify-between lg:items-center lg:flex-row">
+        <div className="grid gap-4">
           <Logo variant />
           <span className="text-white">©2022 - Univago.</span>
           <p className="text-white">Todos os direitos reservados.</p>
