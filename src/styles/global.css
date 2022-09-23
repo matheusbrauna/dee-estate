@@ -9,7 +9,7 @@
   }
 
   body {
-    @apply bg-base-100 text-base-900;
+    @apply bg-base-100;
   }
 
   body,
@@ -28,13 +28,13 @@
   h6 {
     @apply text-brand-dark;
   }
-
-  .nav-link {
-    @apply py-[1rem] text-2xl hover:text-brand-dark transition-colors;
-  }
 }
 
 @layer components {
+  .nav-link {
+    @apply py-[1rem] text-2xl hover:text-brand-dark transition-colors;
+  }
+
   .primary-btn {
     @apply bg-brand-mid  text-white hover:bg-brand-dark active:bg-brand-light transition-colors;
     @apply rounded-[10px] px-6 h-16 flex items-center justify-center text-2xl font-bold;

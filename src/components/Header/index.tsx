@@ -24,7 +24,13 @@ export function Header() {
       <div className="container h-24 flex justify-between items-center">
         <Logo variant={scrollY > 0} />
         <HeaderNav />
-        <Button className="primary-btn hidden lg:flex">Começar agora</Button>
+        <Button
+          className={classNames('primary-btn hidden lg:flex', {
+            'mobile-btn': scrollY > 0,
+          })}
+        >
+          Começar agora
+        </Button>
         <BsList
           size={48}
           className={classNames('lg:hidden text-brand-dark', {

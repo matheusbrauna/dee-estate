@@ -1,27 +1,14 @@
+import classNames from 'classnames'
+import { NavLink } from './NavLink'
+
 export function HeaderNav() {
   return (
     <nav className="hidden lg:grid h-24 place-items-center">
       <ul className="flex gap-10 items-center justify-center">
-        <li>
-          <a href="/" className="nav-link">
-            Home
-          </a>
-        </li>
-        <li>
-          <a href="#about" className="nav-link">
-            Sobre
-          </a>
-        </li>
-        <li>
-          <a href="#services" className="nav-link">
-            Serviços
-          </a>
-        </li>
-        <li>
-          <a href="#testimonials" className="nav-link">
-            Depoimentos
-          </a>
-        </li>
+        <NavLink path="#home">Início</NavLink>
+        <NavLink path="#About">Sobre</NavLink>
+        <NavLink path="#testimonials">Serviços</NavLink>
+        <NavLink path="#testimonials">Depoimentos</NavLink>
       </ul>
     </nav>
   )
