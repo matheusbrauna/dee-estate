@@ -34,9 +34,7 @@
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/91563670/192065427-012b2b59-ec8a-4ca4-aab7-434c2aca389a.gif)
 <br>
 ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/91563670/192065485-2b60db82-bab6-41b2-aa54-e835d861cebf.gif)
-<br>
-
-## [Ver Online](https://univago-hotels.vercel.app)
+### [Ver Online](https://univago-hotels.vercel.app)
 
 ## Tecnologias
 
